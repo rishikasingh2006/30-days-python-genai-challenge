@@ -1,0 +1,5 @@
+# first = int(input("enter your first : "))
+# second = int(input("enter your second: "))
+# print("sum =" ,first + second)
+# side = float(input("enter your side"))
+# print("area = ",side*side)
