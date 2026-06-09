@@ -45,8 +45,45 @@
 #     print("num2 is greatest")
 # else:
 #       print("num3 is largest")
-x = int(input("enter your num"))
-if(x % 7 == 0):
-    print("x is multiple of 7")
-else:
-    print("x is not multiple of 7")
+# x = int(input("enter your num"))
+# if(x % 7 == 0):
+#     print("x is multiple of 7")
+# else:
+#     print("x is not multiple of 7")
+# student = ["Rishika" , 20 , "SGIT"]
+# print(student)
+# print(type(student))
+# print(student[1:16])
+# list = [1,2,3]
+# print(list)
+# list.append(4)
+# print(list)
+# list.sort(reverse=True)
+# print(list)
+# list = [3,5,7]
+# list.reverse()
+# print(list)
+# list.insert(2,4)
+# print(list)
+# list.pop(2)
+# print(list)
+#list is mutable but tuple is immutable
+# tup = (2,1,2,3)
+# print(tup)
+# print(type(tup))
+# print(tup[1:3])
+# x = int(input("enter your num"))
+# y = int(input("enter your num2"))
+# z = int(input("enter your num3"))
+# list = []
+# list.append(x)
+# list.append(y)
+# list.append(z)
+# print(list)
+# grade = ("c" , "c" , "d")
+# print(grade.count("c"))
+list1 = []
+copy_list1 = list1.copy()
+copy_list1.reverse()
+if(copy_list1 == list1):
+    print("Palindrome")
