@@ -82,8 +82,8 @@
 # print(list)
 # grade = ("c" , "c" , "d")
 # print(grade.count("c"))
-list1 = []
-copy_list1 = list1.copy()
-copy_list1.reverse()
-if(copy_list1 == list1):
-    print("Palindrome")
+# list1 = []
+# copy_list1 = list1.copy()
+# copy_list1.reverse()
+# if(copy_list1 == list1):
+#     print("Palindrome")
